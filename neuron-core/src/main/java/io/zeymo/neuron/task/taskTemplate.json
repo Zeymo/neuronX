@@ -1,0 +1,18 @@
+task-layout:{
+	"instancies":[
+		{
+			"name":"feedRequest",
+			"type":"MAP_ONLY",
+			"mapper-class":"com.taobao.xxx.ooo"
+		},{
+			"name":"feedUpdate",
+			"type":"UPDATE_ONLY",
+			"updater-class":"com.taobao.xxx.ooo"
+		},{
+			"name":"feedQuery",
+			"type":"MAP_REDUCE",
+			"mapper-class":"com.taobao.xxx.ooo"
+			"reducer-class":"com.taobao.xxx.ooo"
+		}
+	]
+}
